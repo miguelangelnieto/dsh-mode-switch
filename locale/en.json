@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Mode switch",
-    "description": "Adds an Execute / Plan switch to the composer for the current session. Choosing Plan turns on plan mode, where the agent explores and proposes a plan before changing files; choosing Execute turns it off. The switch drives the built-in plan state and /plan command, so the logged mode survives reloads, resume, and forks. Plan mode is guidance, not an enforced read-only sandbox."
+    "description": "Adds the composer's missing Plan button. While plan mode is off, a neutral Plan control appears next to the permissions pill; clicking it enters plan mode, where the agent explores and proposes a plan before changing files. The built-in Plan chip then takes over as the way back to execution, so the two controls never appear together. The button uses the built-in plan state and /plan command, so the logged mode survives reloads, resume, and forks. Plan mode is guidance, not an enforced read-only sandbox."
   }
 }

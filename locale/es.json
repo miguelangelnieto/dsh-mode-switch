@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Cambio de modo",
-    "description": "Añade al compositor un selector Ejecutar / Plan para la sesión actual. Con Plan activo, el agente explora y propone un plan antes de cambiar archivos; con Ejecutar, el modo plan se desactiva. El selector usa el estado de plan y el comando /plan integrados, así que el modo registrado sobrevive a recargas, reanudaciones y bifurcaciones. El modo plan es una guía, no un entorno de solo lectura impuesto."
+    "description": "Añade el botón Plan que faltaba en el compositor. Con el modo plan desactivado, aparece un control Plan neutro junto a la píldora de permisos; al pulsarlo se activa el modo plan, en el que el agente explora y propone un plan antes de cambiar archivos. Después, el chip Plan integrado toma el relevo para volver a ejecución, así que ambos controles nunca coinciden. El botón usa el estado de plan y el comando /plan integrados, así que el modo registrado sobrevive a recargas, reanudaciones y bifurcaciones. El modo plan es una guía, no un entorno de solo lectura impuesto."
   }
 }
