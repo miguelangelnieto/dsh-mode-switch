@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Cambio de modo",
-    "description": "Añade el botón Plan que faltaba en el compositor. Con el modo plan desactivado, aparece un control Plan neutro junto a la píldora de permisos; al pulsarlo se activa el modo plan, en el que el agente explora y propone un plan antes de cambiar archivos. Después, el chip Plan integrado toma el relevo para volver a ejecución, así que ambos controles nunca coinciden. El botón usa el estado de plan y el comando /plan integrados, así que el modo registrado sobrevive a recargas, reanudaciones y bifurcaciones. El modo plan es una guía, no un entorno de solo lectura impuesto."
+    "description": "Añade el botón Planificar que faltaba en el compositor, como la mitad desactivada del chip Plan integrado. Con el modo de planificación desactivado aparece un control Planificar neutro junto a la píldora de permisos; al pulsarlo se activa el modo de planificación, en el que el agente explora y propone un plan antes de cambiar archivos, y el chip tintado ocupa su lugar. El control usa la misma etiqueta y el mismo icono que el chip en todos los idiomas incluidos, así que ambos se leen como un solo interruptor. El botón usa el estado de plan y el comando /plan integrados. El modo de planificación es una guía, no un entorno de solo lectura impuesto."
   }
 }
