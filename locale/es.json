@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cambio de modo",
+    "description": "Añade al compositor un selector Ejecutar / Plan para la sesión actual. Con Plan activo, el agente explora y propone un plan antes de cambiar archivos; con Ejecutar, el modo plan se desactiva. El selector usa el estado de plan y el comando /plan integrados, así que el modo registrado sobrevive a recargas, reanudaciones y bifurcaciones. El modo plan es una guía, no un entorno de solo lectura impuesto."
+  }
+}

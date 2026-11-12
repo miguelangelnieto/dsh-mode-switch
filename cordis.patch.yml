@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-mode-switch
+      name: '@local/dsh-mode-switch'

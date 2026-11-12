@@ -1,0 +1,10 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dsh-mode-switch-fill" x1="19" y1="13" x2="29" y2="23" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C93FF"/>
+      <stop offset="1" stop-color="#4C63E6"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="11" width="24" height="14" rx="7" stroke="#B3BFD2" stroke-width="2"/>
+  <circle cx="24" cy="18" r="4.5" fill="url(#dsh-mode-switch-fill)"/>
+</svg>
