@@ -2,6 +2,7 @@
   "name": "@local/dsh-mode-switch",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "description": "Plan / execution mode switch in the composer for the current session.",
   "type": "module",
   "main": "index.js",

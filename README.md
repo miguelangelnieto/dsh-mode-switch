@@ -106,3 +106,7 @@ The client half is plain JavaScript loaded through the Harness client module tab
 comes from the page. There is no build step. After editing `client.js` in an installed linked
 checkout, the Host's bundle watcher hot-swaps the plugin; refresh the page if it does not.
 Styles use only `--dsw-*` theme tokens and are scoped under the `dsh-plan-entry` prefix.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
