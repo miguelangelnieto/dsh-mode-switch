@@ -85,10 +85,20 @@ review, and approving it returns the session to execution mode.
 
 ## Install
 
-Install the directory as a bundle, either from **Plugins → Add plugin** in the app or with
-`plugin_manager` `install_bundle` pointed at this directory. The bundle row is named
-`dsh-mode-switch` (`@local/dsh-mode-switch`), so it can also be disabled from Plugins without
-uninstalling it. Refresh the Web page once after installing so the client bundle is fetched.
+Add this directory as a profile bundle: **Plugins → Add plugin** in the app, or
+ask the agent to run the `plugin_manager` tool with `install_bundle` and this
+directory's absolute path.
+
+Either route installs the package and selects the bundle. Installing the package
+alone with pnpm (`dsh plugin --profile <profile> add <dir>`) is not enough: the
+bundle must also be listed under `dsh.profile.bundles` in the profile's
+`package.json`, which is what the two routes above do.
+
+The package deliberately keeps the local name `@local/dsh-mode-switch`; rename it before
+publishing to a registry. It installs the row `dsh-mode-switch`, so the feature can be
+disabled from Plugins without uninstalling the package.
+
+Refresh the Web page once after installing so its client bundle is fetched.
 
 ## Package layout
 
